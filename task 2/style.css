@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch-container {
+    text-align: center;
+}
+
+.stopwatch-display {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.control-btn {
+    font-size: 1em;
+    margin: 5px;
+    padding: 10px;
+}
+
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+}
+.card{
+    border: 3px;
+}
