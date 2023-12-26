@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000;
+}
+
+.stopwatch-container {
+    text-align: center;
+    border: 2px solid #000;
+    margin-bottom: 5%;
+    background-color: #dadada;
+    
+}
+
+.stopwatch-display {
+    font-size: 5em;
+}
+
+.control-btn {
+    font-size: 2em;
+    margin: 5px;
+    padding: 10px;
+    border: 8%;
+    cursor: pointer;
+    box-shadow: inset;
+    background-color: crimson;
+    position: relative;
+}
+
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.card{
+    text-align: center;
+    border: 2px solid #000;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+}
+.card h1{
+    background-color: lightseagreen;
+    border: 0%;
+    border-color: black;
+    
+}
+.container{
+    height: 50%;
+    width: 28%;
+    border: 2%;
+    border-color: #000;
+}
